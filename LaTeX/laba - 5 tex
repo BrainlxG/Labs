@@ -1,0 +1,157 @@
+\documentclass[pdf,hyperref={unicode}, aspectratio=43, serif,11pt]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}  
+\usepackage{listings}
+\usepackage{subcaption}
+
+\usepackage{color,colortbl}
+\definecolor{Gray}{RGB}{211,211,211}
+           
+%Красная строка в первом абзаце
+\usepackage{indentfirst}
+%Величина отступа красной строки
+\setlength{\parindent}{12.5 mm}
+
+\usepackage{graphicx}
+
+\usepackage{setspace}
+\setstretch{1}
+
+\title[Физико-математический факультет]{Орловский государственный
+университет имени И.\,С.~Тургенева}
+\author{Гайворонцев М.Р.}
+\institute[]{Орловский государственный
+университет имени И.\,С.~Тургенева}
+\def\baselinestretch{1}
+
+\usefonttheme[onlymath]{serif}
+\usepackage{beamerthemesplit}
+
+%тема оформления
+\usetheme{Madrid}%Warsaw
+%цветовая гамма
+\usecolortheme{whale}%whale
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}{Введение: Физмат – Кузница Знаний}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \includegraphics[width=\textwidth]{}
+
+\begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{}
+\begin{figure}
+                \centering
+                \includegraphics[width=0.7\linewidth]{666.png}
+                \label{fig:sub1}
+            \end{figure}
+            \label{fig:enter-label}
+        \end{figure}
+
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item Физико-математический факультет — один из старейших в ОГУ. Он сыграл ключевую роль в развитии образования. Факультет стал центром подготовки высококвалифицированных специалистов.
+            \item Академическая строгость: Факультет известен глубиной изучения фундаментальных наук. Здесь обучают логическому мышлению.
+        \end{itemize}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{\textbf{Основные Исторические Этапы}}
+\begin{itemize}
+    \item {\small 1931 год - Основание Орловского индустриально-педагогического института. Заложено начало Физмата.}
+    \item {\small 1930-е годы - Формирование кафедр физики и математики. Разработка первых учебных планов.}
+    \item {\small Великая Отечественная война - Работа института приостановлена. Многие преподаватели и студенты ушли на фронт.}
+    \item {\small 1950-1960-е годы - Восстановление и расширение факультета. Открытие новых специальностей.}
+    \item {\small 1990-е годы - Переход к рыночной экономике. Адаптация программ обучения.}
+    \item {\small 2000-е годы - Модернизация образовательного процесса. Внедрение инновационных технологий.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Известные Личности}
+\begin{center}
+    \includegraphics[scale=0.38]{777.jpg}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{\textbf{Хронология Ключевых Событий}}
+\begin{itemize}
+{\small Важные даты в истории Физико-математического факультета и его развития.}
+    \item {\small 1931 год - Основание института, включившего физмат-отделение}
+    \item {\small 1941-1945 - Приостановка работы из-за войны}
+    \item {\small 1953 - Открытие аспирантуры по физико-математическим наукам}
+    \item {\small 1970-е - Развитие компьютерных технологий}
+    \item {\small 1994 - Переименование в Орловский государственный университет}
+    \item {\small 2016 - Получение статуса опорного университета}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Интересные Факты и Достижения}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{4cm}|p{7.1cm}|}
+        \hline
+        \cellcolor {Gray} \textbf{Факты и Достижения} & \cellcolor {Gray} \textbf{Описание} \\
+        \hline
+        Высокий рейтинг & Факультет стабильно входит в число лучших физмат-факультетов России. \begin{center}
+            \includegraphics[scale=0.18]{}
+        \end{center}\\
+         \hline
+        Олимпийские победы & Студенты Физмата регулярно побеждают на всероссийских олимпиадах по физике и математике.
+        \begin{center}
+            \includegraphics[scale=0.18]{}
+        \end{center}\\
+        \hline
+        Социальные проекты & Факультет активно участвует в просветительской деятельности. Поддержка молодых талантов.
+        \begin{center}
+            \includegraphics[scale=0.18]{}
+        \end{center}\\
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Современный физмат}
+    \begin{columns}
+        \column{0.4\textwidth}
+        \includegraphics[width=\textwidth]{2.jpg}
+        
+        \column{0.6\textwidth}
+        \begin{itemize}
+            \item 7 кафедр
+            \item 634 студента (2007)
+            \item 8 докторов наук
+            \item Компьютерные классы
+            \item Спортивные традиции
+        \end{itemize}
+    \end{columns}
+    
+    \vspace{0.5cm}
+    \centering
+\end{frame}
+
+\begin{frame}
+\frametitle{Заключение и Перспективы}
+{\small История Физмата — это путь к знаниям. Факультет продолжает развиваться, открывая новые горизонты.}
+\begin{itemize}
+    \item {\small \href{https://phys-math.ru/history/start}{Узнать больше}}
+    \item {\small \href{https://oreluniver.ru}{Сайт ОГУ}}
+\end{itemize}
+\end{frame}
+
+
+\end{document}
